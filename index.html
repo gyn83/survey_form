@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="hu">
+  <head>
+  <title>Survey form 1.1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="survey.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo%7CBungee" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div class="form-outer">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form id="survey-form">
+          <div class="row">
+            <div class="left">*Name</div>
+            <div class="right"><input type="text" name="name" id="name" class="input-field" placeholder="Enter your name"></div>
+            <div class="left">*Email</div>
+            <div class="right"><input type="text" name="email" id="email" class="input-field" placeholder="Enter your Email"></div>
+            <div class="left">*Age</div>
+            <div class="right" ><input type="text" name="age" id="age" class="input-field" placeholder="Enter your Age"></div>
+          </div>
+          <div class="row">
+            <div class="left"><p>Which option best describes your current role?</p></div>
+            <div class="right">
+              <select name="select an option" class="input-field">
+                <option disabled value="">select an option</option>
+                <option value="student" >Student</option>
+                <option value="full time job">Full time job</option>
+                <option value="full time lerner">Full time lerner</option>
+                <option value="prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left"><p>*How likely is that you would recommend freeCodeCamp to a friend?</p></div>
+            <div class="right">
+              <input type="radio" name="radio-buttons" value="Definitely" class="radio">Definitely<br>
+              <input type="radio" name="radio-buttons" value="Maybe" class="radio">Maybe<br>
+              <input type="radio" name="radio-buttons" value="Not sure" class="radio">Not sure
+            </div>
+          </div>
+          <div class="row">
+            <div class="left"><p>What do you like most in FCC:</p></div>
+            <div class="right">
+              <select name="select an option" class="input-field">
+                <option disabled value="">select an option</option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open source">Open Source</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left"><p>Things that should be improved in the future
+            (Check all that apply):</p></div>
+            <div class="right">
+              <input type="checkbox" name="checkbox" value="Front-end Projects" class="checkbox">Front-end Projects<br> 
+              <input type="checkbox" name="checkbox" value="Back-end Projects" class="checkbox">Back-end Projects<br>
+              <input type="checkbox" name="checkbox" value="Data Visualization" class="checkbox">Data Visualization<br>
+              <input type="checkbox" name="checkbox" value="Challenges" class="checkbox">Challenges<br> 
+              <input type="checkbox" name="checkbox" value="Open Source Community" class="checkbox">Open Source Community<br>
+              <input type="checkbox" name="checkbox" value="Gitter help rooms" class="checkbox">Gitter help rooms<br>
+              <input type="checkbox" name="checkbox" value="Videos" class="checkbox">Videos<br> 
+              <input type="checkbox" name="checkbox" value="City Meetups" class="checkbox">City Meetups<br>
+              <input type="checkbox" name="checkbox" value="Wiki" class="checkbox">Wiki<br>
+              <input type="checkbox" name="checkbox" value="Forum" class="checkbox">Forum<br>
+              <input type="checkbox" name="checkbox" value="Additional Courses" class="checkbox">Additional Courses<br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left"><p>Any Comments or Suggestions?</p></div>
+            <div class="right">
+              <textarea class="input-field" style="height: 3rem;resize: both" placeholder="Enter your comment here"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="button">
+          </div>
+        </form>
+    </div>
+  </body>
+
+</html>
+  
